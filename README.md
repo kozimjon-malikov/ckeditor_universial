@@ -1,3 +1,39 @@
+✅ import all resources
+
+🟠composer require barryvdh/laravel-elfinder
+
+🟠composer require barryvdh/laravel-elfinder—app.php
+
+🟠php artisan elfinder:publish
+
+🟠php artisan vendor:publish --provider='Barryvdh\Elfinder\ElfinderServiceProvider' --tag=config
+
+🟠php artisan vendor:publish --provider='Barryvdh\Elfinder\ElfinderServiceProvider' --tag=views
+
+✅ php artisan storage:link
+
+Best tool ELFINDER also included;
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            CKEDITOR.replace('editor_uz', {
+                filebrowserBrowseUrl: '/elfinder/ckeditor',
+            });
+
+            CKEDITOR.replace('editor_ru', {
+                filebrowserBrowseUrl: '/elfinder/ckeditor',
+                // CKEditor configuration options
+            });
+            CKEDITOR.replace('editor_en', {
+                filebrowserBrowseUrl: '/elfinder/ckeditor',
+                // CKEditor configuration options
+            });
+        });
+    </script>
+--------------------------------------
+**skip**
+
+
 CKEditor 4
 ==========
 
